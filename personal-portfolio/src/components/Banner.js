@@ -4,6 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import Pdf from '../assets/Rahul Maligi_Resume_V9.pdf';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -63,7 +64,7 @@ export const Banner = () => {
                     passionate worker seeking to broaden my knowledge in the software engineering and 
                     artificial intelligence industry as well as gain experience in the workforce by 
                     obtaining internships and jobs.</p>
-                  <button onClick={() => console.log('connect')}>Let's Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.open(Pdf, '_blank', 'noopener,noreferrer')}>Download CV <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

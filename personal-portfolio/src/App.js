@@ -16,7 +16,7 @@ function App() {
         <meta charSet="utf-8" />
         <title>Rahul's Portfolio</title>
         <link rel="canonical" href="http://mysite.com/example" />
-        <meta name="description" content="This is a personal portfolio website built using React.js" />
+        <meta name="description" content="Join me in my adventures as a passionate programmer." />
       </Helmet>
       <NavBar />
       <Banner />
