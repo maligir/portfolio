@@ -59,10 +59,10 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Rahul`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a senior majoring in Computer Science at the University of Texas at Austin. 
-                    I plan to graduate by December 2023 and begin my Masters Degree in Computer Science 
-                    concurrently in August 2023 with the intention of finishing by May 2025. I am a 
+                    I plan to graduate by May 2024 and begin my Masters Degree in Computer Science 
+                    in August 2024 while working full time in the industry. I am a 
                     passionate worker seeking to broaden my knowledge in the software engineering and 
-                    artificial intelligence industry as well as gain experience in the workforce by 
+                    artificial intelligence fields as well as gain experience in the workforce by 
                     obtaining internships and jobs.</p>
                   <button onClick={() => window.open(Pdf, '_blank', 'noopener,noreferrer')}>Download CV <ArrowRightCircle size={25} /></button>
               </div>}
