@@ -525,7 +525,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 18px;
   margin-top: 0px;
   margin-bottom: 16px;
-  border-radius: 20px;
+  border-radius: 16px;
   position: relative;
   transition: 0.3s ease-in-out;
 }
@@ -535,7 +535,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover {
   color: #fff;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 .contact form button::before {
   content: "";
@@ -547,11 +547,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   left: 0;
   z-index: 0;
   transition: 0.3s ease-in-out;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 .contact form button:hover::before {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 16px;
 }
 
 /************ Footer Css ************/
@@ -583,6 +583,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: 0;
   display: flex;
   align-items: center;
+  margin-bottom: 10 px;
 }
 .new-email-bx::before {
   content: "";
@@ -606,7 +607,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   bottom: 0;
   right: 0;
 }
-.new-email-bx input {
+ .new-email-bx input {
   width: 100%;
   color: #121212;
   font-weight: 500;
@@ -615,15 +616,40 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0 15px;
 }
 .new-email-bx button {
+  font-weight: 500;
+  color: white;
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
   padding: 20px 65px;
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.5px;
+  border-radius: 18px;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+.new-email-bx button:hover {
+  color: white;
+  border-radius: 20px;
+}
+.new-email-bx button::before {
+  content: "";
+  background-color: #121212;
+  color:white;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-in-out;
   border-radius: 18px;
 }
+.new-email-bx button:hover::before {
+  width: 100%;
+  border-radius: 18px;
+}
+.new-email-bx button span {
+  z-index: 2;
+  position: relative;
+}
 .footer img {
-  width: 26%;
+  width: 48%;
 }
 .footer p {
   font-weight: 400;

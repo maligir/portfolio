@@ -37,11 +37,6 @@ export const Contact = () => {
     });
     setButtonText("Send");
     setFormDetails(formInitialDetails);
-    if (true) {
-      
-    } else {
-      
-    }
   };
 
   return (
