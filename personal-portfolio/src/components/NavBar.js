@@ -44,12 +44,12 @@ export const NavBar = () => {
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-              <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+              <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://linkedin.com/in/rahul-maligi" target="_blank" rel="noopener,noreferrer"><img src={navIcon1} alt="LinkedIn" /></a>
-                <a href="https://github.com/maligir" target="_blank" rel="noreferrer"><img src={navIcon2} alt="GitHub" /></a>
+                <a href="https://github.com/maligir" target="_blank" rel="noopener,noreferrer"><img src={navIcon2} alt="GitHub" /></a>
               </div>
                 <button className="vvd" onClick={() => window.open(Pdf, '_blank', 'noopener,noreferrer')}><span>Download CV</span></button>
             </span>
