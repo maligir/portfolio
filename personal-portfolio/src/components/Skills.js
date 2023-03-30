@@ -85,7 +85,7 @@ export const Skills = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx zoomIn">
                         <h2>Skills</h2>
                         <p>Here are all of the skills I have accumulated over my 6 year journey thus far.<br></br> My skillset ranges from the fundamentals of software engineering, including the<br></br> core programming languages, to the intricacies of artificial intelligence development.</p>
                         <Carousel 
