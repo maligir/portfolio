@@ -556,7 +556,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 0 0 3rem 0;
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
@@ -564,42 +564,42 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .newsletter-bx {
   background: #FFFFFF;
-  border-radius: 55px;
+  border-radius: 3.3rem;
   color: #121212;
-  padding: 85px 125px;
-  margin-bottom: 80px;
-  margin-top: -122px;
+  padding: 5.1rem 7.5rem;
+  margin-bottom: 4.8rem;
+  margin-top: -7.32rem;
 }
 .newsletter-bx h3 {
   font-weight: 700;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03rem;
   line-height: 1.2em;
 }
 .new-email-bx {
   background: #fff;
-  padding: 5px;
-  border-radius: 20px;
+  padding: 0.3rem;
+  border-radius: 1.2rem;
   position: relative;
   z-index: 0;
   display: flex;
   align-items: center;
-  margin-bottom: 10 px;
+  margin-bottom: 0.6rem;
 }
 .new-email-bx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  border-radius: 20px;
+  border-radius: 1.2rem;
   position: absolute;
   z-index: -1;
-  top: -1px;
-  left: -1px;
-  bottom: -1px;
-  right: -1px;
+  top: -0.06rem;
+  left: -0.06rem;
+  bottom: -0.06rem;
+  right: -0.06rem;
 }
 .new-email-bx::after {
   content: "";
   background: #fff;
-  border-radius: 20px;
+  border-radius: 1.2rem;
   position: absolute;
   z-index: -1;
   top: 0;
@@ -613,20 +613,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   background: transparent;
   border: 0;
-  padding: 0 15px;
+  padding: 0 0.9rem;
 }
 .new-email-bx button {
   font-weight: 500;
   color: white;
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 20px 65px;
-  border-radius: 18px;
+  padding: 1.2rem 3.9rem;
+  border-radius: 1.08rem;
   position: relative;
   transition: 0.3s ease-in-out;
 }
 .new-email-bx button:hover {
   color: white;
-  border-radius: 20px;
+  border-radius: 1.08rem;
 }
 .new-email-bx button::before {
   content: "";
@@ -638,11 +638,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   top: 0;
   left: 0;
   transition: 0.3s ease-in-out;
-  border-radius: 18px;
+  border-radius: 1.08rem;
 }
 .new-email-bx button:hover::before {
   width: 100%;
-  border-radius: 18px;
+  border-radius: 1.08rem;
 }
 .new-email-bx button span {
   z-index: 2;
@@ -653,8 +653,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .footer p {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.84rem;
   color: #B8B8B8;
-  letter-spacing: 0.5px;
-  margin-top: 1.2rem;
+  letter-spacing: 0.03rem;
+  margin-top: 1.2rem; 
+  /* 1.2 rem is 20 px */
 }
