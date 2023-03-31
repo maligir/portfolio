@@ -10,7 +10,7 @@ export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const [delta, setDelta] = useState(100);
   const [index, setIndex] = useState(1);
   const toRotate = [ "Full Stack Engineer", "Artificial Intelligence Developer", "Robotics Researcher" ];
   const period = 2000;
@@ -31,7 +31,7 @@ export const Banner = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 2);
+      setDelta(100);
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -42,7 +42,7 @@ export const Banner = () => {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
       setIndex(1);
-      setDelta(500);
+      setDelta(100);
     } else {
       setIndex(prevIndex => prevIndex + 1);
     }

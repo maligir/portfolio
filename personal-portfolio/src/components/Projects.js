@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import autotuner from "../assets/img/autotune.png";
-import hacker from "../assets/img/hacker.gif";
+import hacker from "../assets/img/coding.png";
 import phoneme from "../assets/img/phoneme.png";
 import spot from "../assets/img/spot.png";
 import mfcc from "../assets/img/mfcc.png";
@@ -102,37 +102,38 @@ export const Projects = () => {
       description: "Coming Soon!",
       imgUrl: hacker,
       linkUrl: "",
+      classN: "proj-imgbx-big"
     },
-    {
-      title: "Exciting New Projects",
-      description: "Coming Soon!",
-      imgUrl: hacker,
-      linkUrl: "",
-    },
-    {
-      title: "Exciting New Projects",
-      description: "Coming Soon!",
-      imgUrl: hacker,
-      linkUrl: "",
-    },
-    {
-      title: "Exciting New Projects",
-      description: "Coming Soon!",
-      imgUrl: hacker,
-      linkUrl: "",
-    },
-    {
-      title: "Exciting New Projects",
-      description: "Coming Soon!",
-      imgUrl: hacker,
-      linkUrl: "",
-    },
-    {
-      title: "Exciting New Projects",
-      description: "Coming Soon!",
-      imgUrl: hacker,
-      linkUrl: "",
-    },
+    // {
+    //   title: "Exciting New Projects",
+    //   description: "Coming Soon!",
+    //   imgUrl: hacker,
+    //   linkUrl: "",
+    // },
+    // {
+    //   title: "Exciting New Projects",
+    //   description: "Coming Soon!",
+    //   imgUrl: hacker,
+    //   linkUrl: "",
+    // },
+    // {
+    //   title: "Exciting New Projects",
+    //   description: "Coming Soon!",
+    //   imgUrl: hacker,
+    //   linkUrl: "",
+    // },
+    // {
+    //   title: "Exciting New Projects",
+    //   description: "Coming Soon!",
+    //   imgUrl: hacker,
+    //   linkUrl: "",
+    // },
+    // {
+    //   title: "Exciting New Projects",
+    //   description: "Coming Soon!",
+    //   imgUrl: hacker,
+    //   linkUrl: "",
+    // },
   ];
 
   return (
@@ -147,17 +148,6 @@ export const Projects = () => {
                 <p>Throughout my personal project history, I have strived for educational enrichment to better my understanding of computer science as well as the furtherment of science. To achiev
                 e this purpose, I've researched innovative approaches to modern technology as seen below.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
@@ -188,7 +178,7 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>In Progress! Exciting New Projects To Be Released Soon :)</p>
+                      {/* <p>In Progress! Exciting New Projects To Be Released Soon :)</p> */}
                       <Row>
                         {
                           tab3.map((tab3, index) => {
@@ -203,6 +193,17 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                   </Tab.Content>
+                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                    <Nav.Item>
+                      <Nav.Link eventKey="first">1</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="second">2</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="third">3</Nav.Link>
+                    </Nav.Item>
+                  </Nav>
                 </Tab.Container>
               </div>}
             </TrackVisibility>

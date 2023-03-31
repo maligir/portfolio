@@ -46,6 +46,7 @@ import tailwind from "../assets/img/skills/tailwind.png";
 import ubuntu from "../assets/img/skills/ubuntu.png";
 import visualBasic from "../assets/img/skills/visualBasic.png";
 import vs from "../assets/img/skills/vs.png";
+import github from "../assets/img/skills/github.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -116,10 +117,6 @@ export const Skills = () => {
                                 <h5>AI</h5>
                             </div>
                             <div className="item">
-                                <img src={amazonwebservices} alt="Image" />
-                                <h5>Amazon Web Services</h5>
-                            </div>
-                            <div className="item">
                                 <img src={android} alt="Image" />
                                 <h5>Android</h5>
                             </div>
@@ -142,14 +139,6 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={bootstrap} alt="Image" />
                                 <h5>Bootstrap</h5>
-                            </div>
-                            <div className="item">
-                                <img src={bootstrap4} alt="Image" />
-                                <h5>Bootstrap4</h5>
-                            </div>
-                            <div className="item">
-                                <img src={bootstrap5} alt="Image" />
-                                <h5>Bootstrap5</h5>
                             </div>
                             <div className="item">
                                 <img src={csharp} alt="Image" />
@@ -194,6 +183,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={gitlab} alt="Image" />
                                 <h5>GitLab</h5>
+                            </div>
+                            <div className="item">
+                                <img src={github} alt="Image" />
+                                <h5>GitHub</h5>
                             </div>
                             <div className="item">
                                 <img src={heroku} alt="Image" />
