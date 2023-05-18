@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import autotuner from "../assets/img/autotune.png";
-import hacker from "../assets/img/coding.png";
+import hacker from "../assets/img/hacker.gif";
 import phoneme from "../assets/img/phoneme.png";
 import spot from "../assets/img/spot.png";
 import mfcc from "../assets/img/mfcc.png";
@@ -13,6 +13,9 @@ import tttpython from "../assets/img/tttpython.png";
 import stormbound from "../assets/img/stormbound.png";
 import familead from "../assets/img/familead.png";
 import portfolio from "../assets/img/portfolio.png";
+import spending from "../assets/img/spending_score.jpg";
+import face_id from "../assets/img/face_id.png";
+import ctrl_f from "../assets/img/ctrl_f.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -89,39 +92,38 @@ export const Projects = () => {
       linkUrl: "https://github.com/maligir/FamiLead",
     },
     {
-      title: "Portfolio Website",
-      description: "Software Engineering",
-      imgUrl: portfolio,
-      linkUrl: "https://github.com/maligir/portfolio",
+      title: "Spending Score Model",
+      description: "Machine Learning",
+      imgUrl: spending,
+      linkUrl: "https://github.com/maligir/spending_score_model",
     },
   ];
 
   const tab3 = [
     {
+      title: "Portfolio Website",
+      description: "Software Engineering",
+      imgUrl: portfolio,
+      linkUrl: "https://github.com/maligir/portfolio",
+    },
+    {
+      title: "Face ID Login",
+      description: "Computer Vision & Software Engineering",
+      imgUrl: face_id,
+      linkUrl: "https://github.com/maligir/face_id_login",
+    },
+    {
+      title: "Enhanced Ctrl F",
+      description: "Artificial Intelligence & Software Engineering",
+      imgUrl: ctrl_f,
+      linkUrl: "https://github.com/maligir/enhanced_ctrl_f",
+    },
+    {
       title: "Exciting New Projects",
       description: "Coming Soon!",
       imgUrl: hacker,
       linkUrl: "",
-      classN: "proj-imgbx-big"
     },
-    // {
-    //   title: "Exciting New Projects",
-    //   description: "Coming Soon!",
-    //   imgUrl: hacker,
-    //   linkUrl: "",
-    // },
-    // {
-    //   title: "Exciting New Projects",
-    //   description: "Coming Soon!",
-    //   imgUrl: hacker,
-    //   linkUrl: "",
-    // },
-    // {
-    //   title: "Exciting New Projects",
-    //   description: "Coming Soon!",
-    //   imgUrl: hacker,
-    //   linkUrl: "",
-    // },
     // {
     //   title: "Exciting New Projects",
     //   description: "Coming Soon!",
