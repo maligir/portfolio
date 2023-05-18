@@ -6,7 +6,7 @@ import navIcon2 from '../assets/img/github3.png';
 import {
   BrowserRouter as Router
 } from "react-router-dom";
-import Pdf from '../assets/Rahul Maligi_Resume_V9.pdf';
+import Pdf from '../assets/Rahul Maligi_Resume_V10.pdf';
 export const NavBar = () => {
 
   const [activeLink, setActiveLink] = useState('home');
