@@ -16,6 +16,7 @@ import portfolio from "../assets/img/portfolio.png";
 import spending from "../assets/img/spending_score.jpg";
 import face_id from "../assets/img/face_id.png";
 import ctrl_f from "../assets/img/ctrl_f.png";
+import ahg from "../assets/img/ahg.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -119,17 +120,17 @@ export const Projects = () => {
       linkUrl: "https://github.com/maligir/enhanced_ctrl_f",
     },
     {
+      title: "AHG Direction Guide",
+      description: "Artificial Intelligence & Robotics",
+      imgUrl: ahg,
+      linkUrl: "",
+    },
+    {
       title: "Exciting New Projects",
       description: "Coming Soon!",
       imgUrl: hacker,
       linkUrl: "",
     },
-    // {
-    //   title: "Exciting New Projects",
-    //   description: "Coming Soon!",
-    //   imgUrl: hacker,
-    //   linkUrl: "",
-    // },
     // {
     //   title: "Exciting New Projects",
     //   description: "Coming Soon!",
